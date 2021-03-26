@@ -18,7 +18,7 @@ type Course {
 type Chapter {
   id: ID!
   name: String!
-  course: [Course!]!
+  course: Course!
   category: Category!
 }
 
